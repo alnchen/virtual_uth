@@ -39,7 +39,7 @@
 
 * {
   background-color: #027A27;
-  touch-action: manipulation;
+  /* touch-action: manipulation; */
 }
 
 html, body {
