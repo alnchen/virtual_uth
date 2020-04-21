@@ -31,7 +31,6 @@ export default class Flop extends React.Component {
     const { hand } = this.props;
 
     return (
-        // <span id="flop-wrapper">
         <>
             <span id="flop">
                 {showFlop > 0 && <Card card={hand[0]} />}
@@ -43,7 +42,6 @@ export default class Flop extends React.Component {
             </span>
             {showFlop < 3 && <button id='flop-control' onClick={this.showCards}>FLOP</button>}
         </>
-        // </span>
     );
   }
 }

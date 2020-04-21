@@ -29,11 +29,6 @@ export default class Card extends React.Component {
       }
     const { card } = this.props;
     const {suit, value } = card;
-    // const iconStyle = {
-    //     height: '100%',
-    //     width: '100%',
-    //     objectFit: 'contain'
-    // };
 
     const valueColor = suit === 'spade' || suit === 'club' ? 'black-text' : 'red-text'
 
@@ -43,7 +38,6 @@ export default class Card extends React.Component {
                 <span id={valueColor}>{value}</span>
             </span>
             <span id='suit-wrapper'><img id='card-suit' alt={suit} src={SUITICONS[suit]} /></span>
-            {/* <img id='card-suit' alt={suit} src={SUITICONS[suit]} /> */}
         </div>
     );
   }

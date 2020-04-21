@@ -154,28 +154,9 @@ export default class App extends React.Component {
             </div>
           </Orientation>
           <Orientation orientation='portrait' alwaysRender={false}>
-           <span id='portrait-message'>Rotate your phone to start losing money</span>
+           <span id='portrait-message'>Rotate your phone to start losing money, deala</span>
           </Orientation>
         </DeviceOrientation>
-
-        {/* <div id='player-hands-row'>{renderPlayerHands()}</div>
-        {!gameStarted && (<div id="game-controls">
-          <div id='players-label'>Players:</div>
-          <div>
-            <button id='player-count-button' onClick={this.minusPlayerCount}>-</button>
-            <span id='player-count'> {playerCount} </span>
-            <button id='player-count-button' onClick={this.addPlayerCount}>+</button>
-          </div>
-        </div>)}
-        <div id="table-cards">
-          {renderFlop()}
-          {renderTurnAndRiver()}
-        </div>
-        <div id="dealer-hand">{renderDealerHand()}</div>
-        <div id='clear-and-deal'>
-          <button id='controls-action-button' onClick={this.reset}>CLEAR</button>
-          <button id='controls-action-button' onClick={this.newGame}>DEAL</button>
-        </div> */}
       </div>
     );
   }
