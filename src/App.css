@@ -42,10 +42,10 @@
   /* touch-action: manipulation; */
 }
 
-html, body {
+/* html, body {
   height: 100%;
   overflow: hidden;
-}
+} */
 
 textarea:focus, input:focus{
   outline: none;
